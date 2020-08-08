@@ -62,7 +62,12 @@ Boolean(0); // is the only number in JS that is false
 
 /* Boolean("hello") = true, but Boolean("") = false*/
 
-
+/* objects are strings, numbers, arrays, etc
+* it is a container that encloses data and behaviour together
+* methods = functions
+* methods have parenthesis at the end, while properties do not
+* properties are set of data
+* e.g. car is an object, car.drive() is a function, car.color is a property
 
 
 
