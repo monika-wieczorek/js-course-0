@@ -21,10 +21,29 @@
 
 var myTitle = document.getElementById("page-title");
 
-myTitle.textContent = "and... another new title";*/
+myTitle.textContent = "and... another new title";
+*/
 
 /* innerHTML property:
 
 var myTag = document.getElementsByTagName("p");
 
-myTag[0].innerHTML = "<p>I want to change you to a new content</p>";*/
+myTag[0].innerHTML = "<p>I want to change you to a new content</p>";
+*/
+
+/* getAttribute() method:
+
+var link = document.getElementById("test");
+​
+link.getAttribute("href");
+link.getAttribute("id");
+link.getAttribute("class");
+*/
+
+/* setAttribute() method - sets new value to an attribute:
+
+link.setAttribute("class", "Monika");
+*/
+
+link.className //gives current class name
+link.className = "Piotr"; // sets new value to the class
