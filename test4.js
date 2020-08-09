@@ -45,8 +45,8 @@ link.getAttribute("class");
 link.setAttribute("class", "Monika");
 */
 
-link.className //gives current class name
-link.className = "Piotr"; // sets new value to the class
+//link.className - gives current class name
+//link.className = "Piotr"; - sets new value to the class
 
 /* setting a style with the use of JS
 
@@ -62,5 +62,20 @@ title.setAttribute("style", "font-size: 50px; text-align: center");
 title.style.fontSize = "35px";
 title.style.color = "blue";
 title.style.backgroundColor = "red";
+
+*/
+
+/* inserting elements into HTML
+
+var newLi = document.createElement("li"); // creating new element
+var newA = document.createElement("a");
+​
+var menu = document.getElementById("bullets").getElementsByTagName("ul")[0]; // coming to the place where we would like to reach
+
+menu.appendChild(newLi); //adding new Li at the end
+newLi.appendChild(newA);
+newA.innerHTML = "This is a completly new link" // changing content
+
+menu.insertBefore(newLi, menu.getElementsByTagName("li")[0]); //adding new Li in the beginning
 
 */
