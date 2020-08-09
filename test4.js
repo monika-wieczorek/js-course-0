@@ -47,3 +47,20 @@ link.setAttribute("class", "Monika");
 
 link.className //gives current class name
 link.className = "Piotr"; // sets new value to the class
+
+/* setting a style with the use of JS
+
+var title = document.getElementById("page-title");
+
+title.setAttribute("style", "font-size: 50px; text-align: center");
+ */
+
+// OR
+
+/* alternatively styles can be setup using below
+
+title.style.fontSize = "35px";
+title.style.color = "blue";
+title.style.backgroundColor = "red";
+
+*/
