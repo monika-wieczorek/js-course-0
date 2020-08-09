@@ -79,3 +79,18 @@ newA.innerHTML = "This is a completly new link" // changing content
 menu.insertBefore(newLi, menu.getElementsByTagName("li")[0]); //adding new Li in the beginning
 
 */
+
+/* removing and appending elements
+
+var parent = document.getElementById("bullets").getElementsByTagName("ul")[0];
+var child = parent.getElementsByTagName("li")[1];
+
+parent.removeChild(child); // removes child definitely
+
+var child1 = parent.getElementsByTagName("li")[2];
+
+var removed = parent.removeChild(child1); // removes child but stores it somewhere
+
+parent.appendChild(removed); //append removed child
+
+*/
