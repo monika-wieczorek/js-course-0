@@ -69,6 +69,8 @@ Boolean(0); // is the only number in JS that is false
 * properties are set of data
 * e.g. car is an object, car.drive() is a function, car.color is a property
 
+/* a constructor function is a function that creats objects for us*/
+
 
 
 

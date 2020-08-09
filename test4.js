@@ -94,3 +94,13 @@ var removed = parent.removeChild(child1); // removes child but stores it somewhe
 parent.appendChild(removed); //append removed child
 
 */
+
+/* JS events
+var title = document.getElementById("page-title");
+
+title.onclick = function(){};
+ƒ (){}
+title.onclick = function(){
+    alert("you ve clicked me!");
+};
+ */
